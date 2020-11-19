@@ -31,7 +31,7 @@ abstract class HighCharts {
     private WebElement toolTip;
     @FindBy(how = How.CSS, using = "g.highcharts-legend")
     private WebElement legend;
-    @FindBy(how = How.CSS, using = "g.highcharts-axis")
+    @FindBy(how = How.CSS, using = "g.highcharts-axis-labels")
     private List<WebElement> axisLabels;
 
     public HighCharts(WebDriver driver, WebElement chart) {
